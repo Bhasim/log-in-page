@@ -1,0 +1,11 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:wght@300&display=swap');
+
+
+* {box-sizing: border-box}
+
+body {
+  font-family: 'Roboto', sans-serif , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
