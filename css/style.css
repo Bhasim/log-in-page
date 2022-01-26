@@ -203,6 +203,7 @@ align-self: flex-start;
   }
 
 
+  /* main container  */
   .main:after {
     content: "";
     display: table;
