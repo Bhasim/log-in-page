@@ -24,7 +24,7 @@ body {
   } 
   
   /* inputs */
-  input{
+  .pass, .txt {
     width: 100%;
     padding: 15px;
     border: none;
@@ -43,7 +43,7 @@ body {
     width: 100%;
     padding: 20px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     margin: 20px 0;
     opacity: 0.85;
     display: inline-block;
@@ -81,6 +81,7 @@ body {
   .facebook {
     background-color: #3B5998;
     color: white;
+    
   }
   
   .twitter {
@@ -98,12 +99,26 @@ body {
     background-color: #2884ee;
     color: white;
     cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    padding: 8px 10px;
+
   }
   
   input[type=submit]:hover {
     background-color: #0156f5;
   }
-  
+
+  /* input[type=submit2] {
+    background-color: #2884ee;
+    color: white;
+    cursor: pointer;
+  }
+  input[type=submit2]:hover {
+    background-color: #0156f5;
+  }
+   */
   /* containers */
   .small-container-left, 
   .small-container-right, 
@@ -131,21 +146,38 @@ body {
   }
   .rememberMe-login {
     display: flex;
-    width: 108%;
+    
+    
     justify-content: space-evenly;
+    align-content: center;
     border: 2px rgb(223, 8, 8) solid;
     flex-direction: row;
   }
 
   .rememberMe-login1 {
    
-    display: flex;
-    width: 60%;
-    justify-content: left;
+    margin: 2px;
+    width: 100%;
+    height: 50%;
     border: 2px rgb(8, 40, 223) solid;
-    flex-direction: row;
+    padding: 8px 10px;
+    text-align: left;
+    text-decoration: solid;
+    
+    
   }
   
+  .rememberMe-login2 {
+   margin: 2px;
+  
+    height: 50%;
+    width: 50%;
+    
+    border: 1px rgb(8, 40, 223) solid;
+    
+    text-align: center;
+  }
+
   input[type= checkbox] {
 align-self: flex-start;
   }
@@ -164,7 +196,7 @@ align-self: flex-start;
     left: 50%;
     transform: translate(-50%);
     border: 2px solid #ddd;
-    height: 250px;
+    height: 338px;
     border: 2px black solid;
   }
   
