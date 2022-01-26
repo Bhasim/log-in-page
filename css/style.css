@@ -136,6 +136,8 @@ body {
     background-color: #0156f5;
   }
    */
+
+
   /* containers */
   .small-container-left, 
   .small-container-right, 
@@ -147,6 +149,8 @@ body {
     margin-top: 6px;
    
   }
+ /* .bottom-container  */
+
   .small-container5{
     float: left;
     width: 50%;
@@ -162,6 +166,8 @@ body {
     margin-top: 6px;
     border: 1px rgb(206, 206, 206) solid;
   }
+
+  /* remeber me container + login  */
   .rememberMe-login {
     display: flex;
     
