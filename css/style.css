@@ -27,7 +27,7 @@ body {
     
   } 
   
-  /* inputs */
+  /* inputs username+password */
   .pass, .txt {
     width: 100%;
     padding: 15px;
@@ -43,7 +43,7 @@ body {
 
   }
 
-  
+  /* social media buttons  */
   .btn {
     width: 85%;
     padding: 20px;
@@ -59,6 +59,7 @@ body {
     
   }
   
+  /* bottom-container buttons  */
   .btn1 {
     width: 40%;
     padding: 10px;
@@ -80,12 +81,14 @@ body {
     font-size: 1.1rem;
   }
   
+  /* hover for inputs + buttons */
   input:hover,
   .btn:hover {
     opacity: 1;
     
   }
   
+  /* social media buttons color + fonts */
   
   .facebook {
     background-color: #3B5998;
