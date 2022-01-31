@@ -124,19 +124,9 @@ body {
   }
   
   input[type=submit]:hover {
-    background-color: #73c1ee;
+    background-color: #23a5f0;
     
   }
-
-  /* input[type=submit2] {
-    background-color: #2884ee;
-    color: white;
-    cursor: pointer;
-  }
-  input[type=submit2]:hover {
-    background-color: #0156f5;
-  }
-   */
 
 
   /* containers */
