@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
   width: 100vw;
-  height: 100vh;
+  height: 45vh;
 }
 
 .content {
@@ -225,6 +225,10 @@ input[type="checkbox"] {
   border: 1px rgb(206, 206, 206) solid;
 }
 
+
+/* media queries  */
+
+
 @media screen and (min-width: 900px) {
   body {
     max-width: 50vw;
@@ -234,5 +238,6 @@ input[type="checkbox"] {
 @media screen and (max-width: 600px) {
   body {
     width: 100vw;
+    margin: auto;
   }
 }
